@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+--red-dark:#DD1711;
+--blue-smooth:#ACD9EB;
+--orange:#ff9f43;
+--font-size
+}
+
+body{
+    width:100vw;
+    background-image: url(./images/fancy-pants.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+    color: aliceblue;
+    font-family: 'Kanit', sans-serif;
+}
+
+header{
+    height:100px;
+    width:100vw;
+    display:flex;
+    flex-flow: row nowrap;
+    align-items:flex-end;
+    justify-content: space-evenly;
+}
+    
+.stormtrooper{
+    height:70px;
+    width:70px;
+    object-fit: cover;
+}
+    
