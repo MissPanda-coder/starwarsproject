@@ -1,0 +1,24 @@
+@import "mixin";
+
+
+aside{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    background-image: url(/img/WallpaperDog.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    margin-top: 35px;
+    height: 400px;
+
+}
+
+.transparentheroes{
+    @include transparentheroes;
+    margin-top:25px;
+    height:370px;
+    display: block;
+    width:20%;
+
+      
+}

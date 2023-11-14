@@ -1,0 +1,44 @@
+@import 'mixin';
+
+header{
+    
+    background-image: url(../img/fancy-pants.jpg);
+    display:flex;
+    flex-flow: row nowrap;
+    box-shadow:  10px 10px 10px #0e0e0e,          
+}
+
+.logo{
+display: block;
+width: 25%;
+text-align: center;
+}
+
+.menu{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    width:75%;
+    margin:10px 10px 5px 0;
+}
+
+nav>ul{
+    padding:5px 25px 5px 5px;
+}
+
+.stormtrooper{
+    
+    width:70px;
+    object-fit: cover;
+}
+
+legend{
+    font-size: 1.5rem;
+}
+
+.red{
+    @include underline-red;
+}
+
+.blue{
+    @include underline-blue;}

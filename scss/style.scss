@@ -1,5 +1,6 @@
 @use "header";
 @use "main";
+@use "aside";
 @use "footer";
 @use "variables";
 
@@ -10,34 +11,39 @@
     box-sizing: border-box;
 }
 
-:root{
---red-dark:#DD1711;
---blue-smooth:#ACD9EB;
---orange:#ff9f43;
---font-size:1.2rem;
-}
-
 body{
-    width:100vw;
-    background-image: url(../img/fancy-pants.jpg);
-    background-size: cover;
-    background-repeat: repeat;
+
     color: aliceblue;
     font-family: 'Kanit', sans-serif;
+    display: flex;
+    flex-flow: column nowrap;
 }
 
-header{
-    height:100px;
-    width:100vw;
-    display:flex;
-    flex-flow: row nowrap;
-    align-items:flex-end;
-    justify-content: space-evenly;
+h1{
+    font-size: 1.5em;
+}
+
+ul {
+    list-style: none;
+      }
+
+li{
+    padding-top:4px;
 }
     
-.stormtrooper{
-    height:70px;
-    width:70px;
-    object-fit: cover;
+a{
+    text-decoration: none;
 }
-    
+
+a:link{
+    color: white;
+}
+
+a:hover{
+color:var(--red-dark);
+}
+
+a:visited{
+    color:white;
+}
+
