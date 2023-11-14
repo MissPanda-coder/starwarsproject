@@ -7,18 +7,24 @@ aside{
     justify-content: space-evenly;
     background-image: url(/img/WallpaperDog.jpg);
     background-repeat:no-repeat;
-    background-size: cover;
+    background-size:cover;
+    background-position: center;
     margin-top: 35px;
     height: 400px;
-
 }
 
 .transparentheroes{
     @include transparentheroes;
-    margin-top:25px;
+    margin:auto;
     height:370px;
     display: block;
     width:20%;
+}
 
-      
+.lorem{
+background-image: url(../img/fancy-pants.jpg);
+height:100px;
+text-align: center;
+padding-top:20px;
+margin-top:25px;
 }
