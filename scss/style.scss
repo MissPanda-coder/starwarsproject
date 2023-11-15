@@ -1,8 +1,10 @@
+
 @use "header";
 @use "main";
 @use "aside";
 @use "footer";
 @use "variables";
+
 
 
 *{
@@ -17,11 +19,11 @@ body{
     font-family: 'Kanit', sans-serif;
     display: flex;
     flex-flow: column nowrap;
+    cursor: url('../img/Chewbacca.png') 2 2, auto;
+    line-height:1.5em;
 }
 
-h1{
-    font-size: 1.5em;
-}
+
 
 ul {
     list-style: none;
@@ -41,9 +43,10 @@ a:link{
 
 a:hover{
 color:var(--red-dark);
+cursor:alias;
 }
 
 a:visited{
-    color:white;
+color:white;
 }
 

@@ -10,21 +10,27 @@ aside{
     background-size:cover;
     background-position: center;
     margin-top: 35px;
-    height: 400px;
+   
 }
 
 .transparentheroes{
     @include transparentheroes;
-    margin:auto;
-    height:370px;
+    margin:20px auto;
+    height: 100%;
     display: block;
     width:20%;
 }
 
 .lorem{
+display: flex;
 background-image: url(../img/fancy-pants.jpg);
-height:100px;
-text-align: center;
-padding-top:20px;
-margin-top:25px;
+margin:25px auto auto auto;
+width:100vw;
+}
+
+.loremp{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding:5%;
 }

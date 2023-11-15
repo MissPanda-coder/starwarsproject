@@ -4,12 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "sass": "sass -w scss/style.scss css/style.css"
+    "sass": "sass -w scss/style.scss css/style.css",
+    "purge": "purgecss --css css/style.css --content scss/index.html --output purgeCss",
+    "minify":"css-minify --dir purgeCss --output style"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bootstrap": "^5.3.2",
+    "css-minify": "^2.0.0",
     "sass": "^1.69.5"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^5.0.0",
+    "postcss": "^8.4.31"
   }
 }

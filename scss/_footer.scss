@@ -1,0 +1,40 @@
+@import 'mixin';
+
+footer{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    background-image: url(/img/WallpaperDog.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center;
+    margin-top: 35px;
+}
+
+h4{
+    margin:10px 0 10px 0;
+}
+
+i{
+    margin-right: 15px;
+}
+
+.country{
+    display: block;
+    margin-left: 31px;
+}
+
+.map{
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.formcontact{
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+
+#submit, label{
+    margin-top: 10px;
+}
