@@ -1,6 +1,7 @@
 @import 'mixin';
 
 footer{
+   
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-evenly;
@@ -37,4 +38,29 @@ i{
 
 #submit, label{
     margin-top: 10px;
+}
+
+// RESPONSIVE//
+
+@media screen and (max-width:768px) {
+        
+ footer{
+    width: 100vw;
+    display:block;
+    margin: auto;
+    padding: 0 10px 0 10px;
+ }
+
+ .contact, .map, .formcontact, .widget{
+    margin:auto;
+    
+ }
+
+}
+
+
+
+@media screen and (min-width:769px) and (max-width:992px){
+
+   
 }

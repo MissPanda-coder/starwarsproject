@@ -94,4 +94,27 @@ main{
   height: 100%;
 }
  
+  // RESPONSIVE//
+
+@media screen and (max-width:768px) {
+ 
   
+ 
+ .maincontainer{
+  display: block;
+  margin:auto;
+
+ }
+
+ .welcome{
+  padding-left: 2px;
+ }
+
+#welcome, #works, #products, #video, #youtube{
+  text-align:center;
+}
+
+
+}
+
+
