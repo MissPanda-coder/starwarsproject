@@ -13,14 +13,16 @@
 </head>
 <body>
     <header>
+        
+        <div class="logo">
+            <img src="./img/casqueStrom.png" alt="Casque d'un stormtrooper" class="stormtrooper"></img>
+            <h1>REBELS VS EMPIRE</h1>
+        </div>
+        
         <div class="menuButton" >
             <div class="bar1"></div>
             <div class="bar2"></div>
             <div class="bar3"></div>
-        </div>
-        <div class="logo">
-            <img src="./img/casqueStrom.png" alt="Casque d'un stormtrooper" class="stormtrooper"></img>
-            <h1>REBELS VS EMPIRE</h1>
         </div>
         <nav class="menu">
            <ul>
@@ -53,7 +55,8 @@
                 <li><a href="#">Product category 2</a></li>
                 <li><a href="#">Custom templates</a></li>
             </ul>
-    </nav> 
+    </nav>
+
     </header>
     
     <aside class="presentation">
@@ -105,17 +108,17 @@
                     
         <div class="map">
            <h4>WHERE TO FIND US</h4>
-            <iframe id="map_map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2909.8217956229555!2d5.600599876547267!3d43.17126468346697!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12c9afa01fba6ae7%3A0x67f911ee9b024bf2!2sCentre%20de%20Formation%20Louis%20Benet!5e0!3m2!1sfr!2sfr!4v1700046463696!5m2!1sfr!2sfr" width="500" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe class="responsive-iframe2" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2909.8217956229555!2d5.600599876547267!3d43.17126468346697!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12c9afa01fba6ae7%3A0x67f911ee9b024bf2!2sCentre%20de%20Formation%20Louis%20Benet!5e0!3m2!1sfr!2sfr!4v1700046463696!5m2!1sfr!2sfr" width="300" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
         <div class="formcontact">
             <h4>CONTACT US</h4>
             <label for="email" name="email" id="email-label">Your Email</label>
             <input id="email" name="email" type="email" required autocomplete="email"
               placeholder="Enter your email" />
-            <label for="">Subject</label>
+            <label for="message">Subject</label>
             <textarea
             placeholder="Enter your comment here..." name="comment"
-            rows="4"></textarea>
+            rows="4" id="message"></textarea>
             <input type="submit" value="Submit" id="submit">
 
         </div>
@@ -125,6 +128,6 @@
             <img src="./img/casque2.jpg" alt="2 autres casques blancs de stormstrooper"></img>
         </div>
     </footer>
-    <script src="main.js"></script>
+    <script src="./scss/main.js"></script>
 </body>
 </html>
